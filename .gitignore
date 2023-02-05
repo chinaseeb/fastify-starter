@@ -3,3 +3,4 @@
 .DS_Store
 coverage
 yarn-error.log
+.nyc_output
