@@ -3,12 +3,12 @@
 const createServer = require('./server')
 
 const start = async () => {
-  const server = await createServer()
-
-  const host = server.config.API_HOST
-  const port = +server.config.API_PORT
-
   try {
+    const server = await createServer()
+
+    const host = server.config.API_HOST
+    const port = +server.config.API_PORT
+
     await server.listen({ host, port })
 
     if (server.config.NODE_ENV === 'test') {

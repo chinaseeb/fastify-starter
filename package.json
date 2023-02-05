@@ -1,6 +1,6 @@
 {
   "name": "fastify-api-starter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fastify API Starter Template",
   "main": "app.js",
   "scripts": {
