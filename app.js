@@ -12,8 +12,7 @@ const start = async () => {
     await server.listen({ host, port })
 
     if (server.config.NODE_ENV === 'test') {
-      //server.log.level = 'silent'
-      server.log.level = 'debug'
+      server.log.level = 'silent'
     } else {
       server.log.level = server.config.LOG_LEVEL
     }
